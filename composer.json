@@ -1,0 +1,17 @@
+{
+    "name": "startpl/t2cms-module",
+    "type": "t2cms-module",
+    "description": "The module example for t2cms",
+    "version": "1.0.0",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Koperdog",
+            "email": "koperdog.dev@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": { "startpl\\t2cms\\moduleExample\\": "" }
+    }
+}
