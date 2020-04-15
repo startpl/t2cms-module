@@ -6,20 +6,21 @@ You can use this module as template
 ### Module development features
 File structure:
 
-    /backend
-    - /config
-    - - main.php 
-    - Module.php
-    /frontend
-    - /config
-    - - main.php 
-    - Module.php
-    /common
-    - /config
-    - - main.php 
-    - Module.php
-    module_info.php
-    ModuleInstall.php
+    my-module
+    ├─ backend
+    |  ├── Module.php
+    |  └── config
+    |      └── main.php 
+    ├── frontend
+    |   ├── Module.php
+    |   └── config
+    |       └── main.php 
+    ├── common
+    |   ├── Module.php
+    |   └── config
+    |       └── main.php 
+    ├── module_info.php
+    └── ModuleInstall.php
 
 Each part of your module (backend/frontend/common) is a regular yii2 module.
 
