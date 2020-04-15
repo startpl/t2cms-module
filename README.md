@@ -52,7 +52,7 @@ return [
 
 ### ModuleInstall.php
 
-`ModuleInstall` class must implements `[t2cms\module\interfaces\IModuleInstall]` interface
+`ModuleInstall` class must implement `[t2cms\module\interfaces\IModuleInstall]` interface
 
 and must contain follow methods:
 - install(): bool
